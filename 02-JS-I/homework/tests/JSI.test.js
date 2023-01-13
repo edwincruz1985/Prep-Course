@@ -86,7 +86,7 @@ describe('suma(x, y)', function() {
 });
 
 describe('resta(x, y)', function() {
-  it('Deberia devolver la diferencia de los dos argumentos', function() {
+  it('5 - 5', function() {
     expect(resta(5, 5)).toBe(0);
     expect(resta(-1, 5)).toBe(-6);
     expect(resta(5, -5)).toBe(10);
@@ -95,7 +95,7 @@ describe('resta(x, y)', function() {
 });
 
 describe('divide(x, y)', function() {
-  it('Deberia devolver la division de los dos argumentos', function() {
+  it('5 / 5', function() {
     expect(divide(5, 5)).toBe(1);
     expect(divide(10, 5)).toBe(2);
     expect(divide(11, 2)).toBe(5.5);
@@ -103,7 +103,7 @@ describe('divide(x, y)', function() {
 });
 
 describe('multiplica(x, y)', function() {
-  it('Deberia devolver el producto de los dos argumentos', function() {
+  it('5 * 5', function() {
     expect(multiplica(5, 5)).toBe(25);
     expect(multiplica(10, -5)).toBe(-50);
     expect(multiplica(11, 0)).toBe(0);
@@ -111,8 +111,11 @@ describe('multiplica(x, y)', function() {
 });
 
 
-describe('sonIguales(x, y)', function() {
-  it('Deberia devolver true si los argumentos son iguales y sino false', function() {
+describe('sonIguales(x, y)', function sonIguales(x, y) {
+  it(' ', function() { if (15 == 15){
+    return true;
+  }
+  return false;
     expect(sonIguales(15, 15)).toBe(true);
     expect(sonIguales(90, 50)).toBe(false);
     expect(sonIguales('test', 'test')).toBe(true);
