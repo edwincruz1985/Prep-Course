@@ -48,38 +48,38 @@ describe('nuevoNum', function() {
 });
 
 describe('nuevoBool', function() {
-  it('Deberia ser un booleano', function() {
+  it('true', function() {
     expect(typeof nuevoBool).toBe('boolean');
   });
 });
 
 describe('nuevaResta', function() {
-  it('false', function() {
+  it('true', function() {
     expect(nuevaResta).toBe(true);
   });
 });
 
 describe('nuevaMultiplicacion', function() {
-  it('Deberia ser un booleano', function() {
+  it('true', function() {
     expect(nuevaMultiplicacion).toBe(true);
   });
 });
 
 describe('nuevoModulo', function() {
-  it('Deberia ser un booleano', function() {
+  it('true', function() {
     expect(nuevoModulo).toBe(true);
   });
 });
 
 describe('devolverString(str)', function() {
-  it('Deberia devolver el string provisto', function() {
+  it('henry', function() {
     let string = 'Henry';
     expect(devolverString(string)).toBe(string);
   });
 });
 
 describe('suma(x, y)', function() {
-  it('Deberia devolver la suma de los dos argumentos', function() {
+  it('5 + 5', function() {
     expect(suma(5, 5)).toBe(10);
     expect(suma(-1, 5)).toBe(4);
   });
