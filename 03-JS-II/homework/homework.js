@@ -4,7 +4,16 @@ function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
-  // Tu código:
+  // Tu código: 
+  function obtenerMayor(x, y){
+    var x = 10;
+    var y = 5;
+    if (x > y) {
+      console.log (obtenerMayor)
+    } else (x <= y){
+      console.log (x || y)
+    }
+  }
 }
 
 function mayoriaDeEdad(edad) {
