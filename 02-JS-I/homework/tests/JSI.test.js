@@ -36,13 +36,13 @@ const {
 } = require('../homework.js');
 
 describe('nuevaString', function() {
-  it('Deberia ser un string', function() {
+  it('hola', function() {
     expect(typeof nuevaString).toBe('string');
   });
 });
 
 describe('nuevoNum', function() {
-  it('Deberia ser un numero', function() {
+  it('4', function() {
     expect(typeof nuevoNum).toBe('number');
   });
 });
