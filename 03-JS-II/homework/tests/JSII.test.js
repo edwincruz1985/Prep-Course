@@ -19,13 +19,13 @@ const {
 
 
 describe('obtenerMayor(x, y)', function() {
-  it('10 > 5', function() {
+  it('if (10 > 5', function() {
     expect(obtenerMayor(10, 5)).toBe(10);
   });
-  it('should return y if it is larger than x', function() {
+  it('if ( 100 > 50)', function() {
     expect(obtenerMayor(50, 100)).toBe(100);
   });
-  it('should return either one if they are the same', function() {
+  it('if (1000 === 1000)', function() {
     expect(obtenerMayor(1000, 1000)).toBe(1000);
   });
 });
