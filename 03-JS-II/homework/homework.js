@@ -5,14 +5,12 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código: 
-  function obtenerMayor(x, y){
-    var x = 10;
-    var y = 5;
+
+  function obtenerMayor(x, y) {
     if (x > y) {
-      console.log (obtenerMayor)
-    } else (x <= y){
-      console.log (x || y)
+      return "x";
     }
+    return "y";
   }
 }
 
@@ -20,6 +18,15 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+
+  function mayorDeEdad(edad){
+    if (edad >= 18){
+      return "allowed";
+    }
+    else {
+      return "no allowed";
+    }
+  }
 }
   
 function conection(status) {
@@ -28,6 +35,16 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+}function conection(status){
+  if (status === 1){
+    return "online";
+  }
+  else if (status === 2){
+    return "away";
+  }
+  else {
+    return "offline";
+  }
 }
 
 function saludo(idioma) {
@@ -37,6 +54,21 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+
+  function saludo(idioma){
+    if (idioma === aleman){
+      return "Guten Tag!";
+    }
+    else if (idioma === mandarin){
+      return "Ni Hao!";
+    }
+    else if (idioma === ingles){
+      return "Hello!"
+    }
+    else {
+      return "hola!";
+    }
+  }
 }
 
 function colors(color) {
@@ -47,18 +79,37 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+
+  function colors(color){
+    switch (color){
+      case "blue":
+        return "This is blue";
+        case "red":
+          return "This is red";
+          case "green":
+          return "This is gren";
+          case "orange":
+            return "This is orange";
+            default:
+              return "Color no found";
+    }
+  }
 }
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  return numero === 10 || numero === 5;
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  return numero < 50 && numero > 20;
 }
 
 function esEntero(numero) {
