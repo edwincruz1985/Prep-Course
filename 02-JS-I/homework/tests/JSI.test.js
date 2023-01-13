@@ -54,7 +54,7 @@ describe('nuevoBool', function() {
 });
 
 describe('nuevaResta', function() {
-  it('Deberia ser un booleano', function() {
+  it('false', function() {
     expect(nuevaResta).toBe(true);
   });
 });
